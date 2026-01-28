@@ -371,13 +371,13 @@
                 </div>
 
             </div>
-            <p style="font-size:0.7rem">Location: The Lair Elyu<br>Check-inTime: 2:00 PM</p>
+            <p style="font-size:0.7rem">Location: The Lair Elyu<br>Check-in Time: 2:00 PM</p>
             <button class="back-btn" onclick="goToMenu()">BACK TO MENU</button>
         </div>
 
         <div id="detail-dinner" class="screen">
             <h1>🍽️ Lunch Date</h1>
-            <p class="scroll-hint"><<Swipe & Select >></p>
+            <p class="scroll-hint"><< Swipe to see options >></p>
             
             <div class="carousel-container">
                 <div class="carousel-item">
@@ -414,7 +414,6 @@
                 </div>
             </div>
 
-            <p style="font-size:0.6rem; color:#888;">Swipe to see options</p>
             <button class="back-btn" onclick="goToMenu()">BACK TO MENU</button>
         </div>
 
@@ -568,7 +567,7 @@
             playClick();
             if(val === "Other") {
                 const inputVal = document.getElementById('other-input').value;
-                selectedRestaurantName = inputVal || "Her Suggestion";
+                selectedRestaurantName = inputVal || "whatever you want my love";
             } else {
                 selectedRestaurantName = val;
             }
@@ -623,4 +622,5 @@
         }
     </script>
 </body>
+
 </html>
